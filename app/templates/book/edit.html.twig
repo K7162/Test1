@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edytuj książkę{% endblock %}
+
+{% block body %}
+<h1>Edytuj książkę</h1>
+
+{{ form_start(form) }}
+{{ form_row(form.title) }}
+{{ form_row(form.totalPages) }}
+{{ form_row(form.publishedYear) }}
+{{ form_row(form.genre) }}
+{{ form_row(form.publisher) }}
+{{ form_row(form.authors) }}
+
+<button type="submit">Zapisz</button>
+{{ form_end(form) }}
+{% endblock %}

@@ -1,0 +1,7 @@
+book:
+  title: "Tytuł"
+  total_pages: "Liczba stron"
+  published_year: "Rok wydania"
+  genre: "Gatunek"
+  publisher: "Wydawca"
+  authors: "Autorzy"
